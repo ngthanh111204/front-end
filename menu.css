@@ -1,0 +1,50 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header > div{
+    min-width: 200px;
+
+}
+.header .Logo{
+    text-align: center;
+    display: flex;
+    font-size: 3rem;
+    list-style: none;
+}
+.header .Logo li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    color: rgb(38, 81, 210);
+}
+.header .profile{
+    background-color: green;
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem ;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.header .profile li{
+    list-style: none;
+    padding: 20px;
+}
+.header .menu ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.header .menu ul li{
+    padding: 20px;
+    font-size: 3rem;
+}
+.header .menu ul li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid goldenrod;
+}
